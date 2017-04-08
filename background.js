@@ -15,6 +15,8 @@ function main() {
   function openLastTab() {
     var tabs = getTabs();
     var lastTab = tabs.pop();
+    if (!lastTab) return;
+
     chrome.tabs.create({
       'url': lastTab,
       'selected': true

@@ -1,6 +1,6 @@
 {
   "name": "Reopen Last Tab Button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Neil Ding",
   "description": "A button that reopen last closed tab.",
   "permissions": [
